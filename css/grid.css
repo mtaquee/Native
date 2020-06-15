@@ -1,0 +1,165 @@
+/* grid system */
+
+@media (min-width : 570px){ /* small mobiles*/
+    .container{
+        width: 540px;
+    }
+}
+@media (min-width : 768px){ /* tablets*/
+    .container{
+        width: 720px;
+    }
+}
+@media (min-width : 992px){ /* desktops*/
+    .container{
+        width: 960px;
+    }
+}
+@media (min-width : 1200px){ /* large screen mobiles*/
+    .container{
+        width: 1140px;
+    }
+}
+
+
+/* toggle menu */
+
+@media (max-width: 991px){
+    .header-area .options{
+        display: none;
+    }
+        .toggle-menu{
+        display: block;
+    }
+/* in case toggle menu clicked open class will be added to the menu */
+    .header-area .options.open {
+        display: block;
+        margin: 65px 20px 0 40%;
+    }
+
+    .header-area .options.open li{
+        display: block;
+        margin: 5px 0;
+        text-align: left;
+        background-color: white;
+
+    }
+    .header-area .options.open a{
+        color: var(--main-color);
+        padding: 10px;
+        font-weight: bold;
+    }
+    /*testomonial*/
+    .testo-box{
+        width: 60%;
+        margin: 20px 0;
+    }
+    .text-container{
+        width: 100%;
+        text-align: center;
+        margin: 20px;
+    }
+    .testo-box .testo-hold h4{
+        font-weight: bolder;
+        margin: 0;
+        height: 50%; 
+        font-size: ;
+        font-weight: bolder; 
+    }
+    .testo-box .testo-hold p{
+        margin: 0;
+        height: 50%;
+        padding: 5px;
+    }
+    /* contact-us */
+    .contact-us form input:not([type="submit"])::placeholder,
+.contact-us form textarea::placeholder{
+    font-size: x-small;
+}
+
+}
+@media(max-width: 767px){
+
+    /* about us */
+    .about-us{
+      display: block;
+      text-align: center;
+
+  }
+  .about-us .left{
+      text-align: center;
+      border: none;
+  }
+  .about-us .left p{
+      text-align: center;
+  }
+  .about-us .right{
+      border: none;
+  }
+  /*Experience */
+  .exp-left, .exp-right{
+      width: 100%;
+      margin: 5px 0;
+      text-align: center;
+      z-index: 2;
+  }
+  .exp-right::before,
+  .exp-right::after,
+  .exp-left::before,
+  .exp-left::after{
+      display: none;
+  }
+  .exp-content p{
+      text-align: center;
+  }
+  .feature-content .feature-slide{
+      width: 40%;
+}
+    /* contact-us */
+    .contact-us form .left{
+       width: 40%;
+    }
+    .contact-us form .right{
+        width: 57%;
+    }
+    .contact-us form input:not([type="submit"])::placeholder,
+.contact-us form textarea::placeholder{
+    font-size: xx-small
+}
+
+}
+
+@media(max-width: 569px){
+
+    /* intro */
+    .intro h1{
+        font-size: 2em;
+    }
+    .intro p{
+        width: 75%;
+        margin: auto;
+    }
+    /* about us */
+    .about-us{
+        display: block;
+        text-align: center;
+
+    }
+    .about-us .left{
+        text-align: center;
+        border: none;
+    }
+    .about-us .right{
+        border: none;
+    }
+    /* features */
+    .feature-content .feature-slide{
+        width: 90%;
+        }
+        /* testomonial*/
+        .testo-box .testo-hold img{
+            width: 40%;
+        }
+    
+
+}

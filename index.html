@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Taquee Designs</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/file.css" />
+    <link rel="stylesheet" href="css/grid.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap"/>
+    <link rel="stylesheet" href="css/all.min.css" />
+  </head>
+  <body>
+    <!-- start setting -->
+    <div class="setting-box" id="setn">
+      <div class="sign-cont">
+        <i class="fas fa-cog fa-2x sign" id="sign" onclick="opn()"></i>
+      </div>
+      <!-- all option -->
+      <div class="option-container">
+        <!-- start color box -->
+        <div class="option-box color-piker">
+          <h4>Colors</h4>
+          <hr />
+          <ul class="color-list">
+            <li data-color="#FFC107" class="active"></li>
+            <li data-color="#FF5722"></li>
+            <li data-color="#009688"></li>
+            <li data-color="#8BC34A"></li>
+            <li data-color="seagreen"></li>
+          </ul>
+        </div>
+        <!-- end color box -->
+
+        <!-- start random background control -->
+        <div class="option-box random-background">
+          <h4>Background</h4>
+          <hr />
+          <span control="yes" class="active">yes</span>
+          <span control="no" class="">no</span>
+        </div>
+        <!-- end random background control -->
+
+        <!-- start show bullets -->
+        <div class="show-bullet option-box">
+          <h4>Bullets</h4>
+          <hr />
+          <span control="show" class="active">Show</span>
+          <span control="hide" class="">Hide</span>
+        </div>
+        <!-- end show bullets -->
+
+        <!-- start reset -->
+        <div class="reset option-box">
+          <h4>Reset</h4>
+          <hr />
+          <button>Reset</button>
+        </div>
+        <!-- end reset -->
+      </div>
+    </div>
+    <!-- end setting -->
+
+    <!-- start navigation -->
+    <div class="navigation">
+      <div class="navi-bullet" data-custom="landing-page">
+        <div class="tool-tip">Home</div>
+      </div>
+      <div class="navi-bullet" data-custom="about-us">
+        <div class="tool-tip">About us</div>
+      </div>
+      <div class="navi-bullet" data-custom="skills">
+        <div class="tool-tip">Skills</div>
+      </div>
+      <div class="navi-bullet" data-custom="gallery">
+        <div class="tool-tip">Gallery</div>
+      </div>
+      <div class="navi-bullet" data-custom="exp">
+        <div class="tool-tip">Experience</div>
+      </div>
+      <div class="navi-bullet" data-custom="features">
+        <div class="tool-tip">Features</div>
+      </div>
+      <div class="navi-bullet" data-custom="testomonial">
+        <div class="tool-tip">Testomonial</div>
+      </div>
+    </div>
+
+    <!-- end navigation -->
+    <!-- start landing page -->
+    <div class="landing-page " id="bk">
+      <!-- overlay -->
+      <div class="overlay"></div>
+      <!-- header bar-->
+      <header class="header-area">
+        <div class="logo">LOGO</div>
+        <ul class="options">
+          <li><a href="#" class="active links" data-custom="landing-page">Home</a></li>
+          <li><a href="#" class="links" data-custom="about-us">About Us</a></li>
+          <li><a href="#" class="links" data-custom="Skills">Skills</a></li>
+          <li><a href="#" class="links" data-custom="Gallery">Gallery</a></li>
+          <li><a href="#" class="links" data-custom="exp">Experience</a></li>
+          <li><a href="#" class="links" data-custom="features">Features</a></li>
+          <li><a href="#" class="links" data-custom="testomonial">Testomonial</a></li>
+        </ul>
+
+        <div class="toggle-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+      <!-- main baner -->
+      <div class="intro">
+        <h1>We are .. <span>Different</span></h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. laudantium
+          voluptates assumenda debitis?
+        </p>
+      </div>
+    </div>
+    <!-- end landing page -->
+
+    <!-- start about us -->
+    <div class="container">
+      <div class="about-us">
+        <div class="left">
+          <h1>About Us</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+            praesentium sapiente necessitatibus cupiditate sequi voluptate sint
+            mollitia adipisci repellendus. Quae labore recusandae commodi
+            quaerat temporibus suscipit, autem reprehenderit similique maxime.
+          </p>
+        </div>
+        <div class="right">
+          <img src="imgs/about us.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- end about us -->
+
+    <!-- start skills  -->
+    <div class="skills">
+      <div class="container">
+        <h1>Skills</h1>
+        <div class="skill-box">
+          <div class="skill-name">
+            HTML
+          </div>
+          <div class="skill-bar">
+            <span progress-data="90%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">
+            CSS
+          </div>
+          <div class="skill-bar">
+            <span progress-data="80%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">
+            Javascript
+          </div>
+          <div class="skill-bar">
+            <span progress-data="60%"></span>
+          </div>
+        </div>
+
+        <div class="skill-box">
+          <div class="skill-name">
+            PHP
+          </div>
+          <div class="skill-bar">
+            <span progress-data="50%"></span>
+          </div>
+        </div>
+
+        <div class="skill-box">
+          <div class="skill-name">
+            MySQL
+          </div>
+          <div class="skill-bar">
+            <span progress-data="30%"></span>
+          </div>
+        </div>
+
+        <div class="skill-box">
+          <div class="skill-name">
+            Jquery
+          </div>
+          <div class="skill-bar">
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end skills  -->
+
+    <!-- start gallery -->
+    <div class="gallery">
+      <div class="container">
+        <h1>Gallery</h1>
+        <div class="gallery-box">
+          <img src="imgs/5.jpg" alt="Lovely place" />
+          <img src="imgs/6.jpg" alt="OMG" />
+          <img src="imgs/7.jpg" alt="Friendly people" />
+          <img src="imgs/8.jpg" alt="I love it" />
+          <img src="imgs/9.jpg" alt="Is this the paradise..!" />
+          <img src="imgs/10.jpg" alt="Family will love that" />
+          <img src="imgs/11.jpg" alt="" />
+          <img src="imgs/12.jpg" alt="" />
+          <img src="imgs/13.jpg" alt="" />
+          <img src="imgs/14.jpg" alt="" />
+          <img src="imgs/16.jpg" alt="" />
+          <img src="imgs/17.jpg" alt="" />
+          <img src="imgs/18.jpg" alt="" />
+          <img src="imgs/19.jpg" alt="" />
+          <img src="imgs/20.jpg" alt="" />
+          <img src="imgs/21.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- end gallery -->
+
+    <!-- start experience -->
+    <div class="exp">
+      <div class="container">
+        <h1>My Experience</h1>
+        <div class="exp-content">
+          <div class="year">2000</div>
+          <div class="exp-left">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
+              adipisci atque inventore possimus deleniti itaque, iure maiores
+              commodi veritatis aut quia nam dolore dicta! Id tenetur
+              repudiandae voluptas nemo corporis!
+            </p>
+          </div>
+          <div class="float-clear"></div>
+          <div class="year">1900</div>
+          <div class="exp-right">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
+              adipisci atque inventore possimus deleniti itaque, iure maiores
+              commodi veritatis aut quia nam dolore dicta! Id tenetur
+              repudiandae voluptas nemo corporis!
+            </p>
+          </div>
+          <div class="float-clear"></div>
+          <div class="year">2000</div>
+          <div class="exp-left">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
+              adipisci atque inventore possimus deleniti itaque, iure maiores
+              commodi veritatis aut quia nam dolore dicta! Id tenetur
+              repudiandae voluptas nemo corporis!
+            </p>
+          </div>
+          <div class="float-clear"></div>
+          <div class="year">1900</div>
+          <div class="exp-right">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
+              adipisci atque inventore possimus deleniti itaque, iure maiores
+              commodi veritatis aut quia nam dolore dicta! Id tenetur
+              repudiandae voluptas nemo corporis!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end experience -->
+
+    <!-- start features -->
+    <div class="features">
+      <div class="container">
+        <h1>Features</h1>
+        <div class="feature-content">
+          <div class="feature-slide">
+            <img src="imgs/f1jpg.jpg" alt="" />
+            <h3>Noraml</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit Praesent
+              quis urna et
+            </p>
+          </div>
+          <div class="feature-slide">
+            <img src="imgs/f2.jpg" alt="" />
+            <h3>Noraml</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit Praesent
+              quis urna et
+            </p>
+          </div>
+          <div class="feature-slide">
+            <img src="imgs/f3.jpg" alt="" />
+            <h3>Noraml</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit Praesent
+              quis urna et
+            </p>
+          </div>
+          <div class="feature-slide">
+            <img src="imgs/f4.jpg" alt="" />
+            <h3>Noraml</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit Praesent
+              quis urna et
+            </p>
+          </div>
+          <div class="feature-slide">
+            <img src="imgs/f5.jpg" alt="" />
+            <h3>Noraml</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit Praesent
+              quis urna et
+            </p>
+          </div>
+          <div class="feature-slide">
+            <img src="imgs/f6.jpg" alt="" />
+            <h3>Noraml</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit Praesent
+              quis urna et
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end features -->
+
+    <!-- start testomoial -->
+    <div class="testomonial">
+      <div class="container">
+        <h1>Testomonial</h1>
+        <div class="testo-content">
+          <div class="testo-box">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+            </p>
+            <div class="testo-hold">
+              <img src="imgs/p1.jpeg" alt="" />
+              <div class="text-container">
+                <h4>Taquee</h4>
+                <p>CEO</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="testo-box">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+            </p>
+            <div class="testo-hold">
+              <img src="imgs/p2.jpg" alt="" />
+              <div class="text-container">
+                <h4>Taquee</h4>
+                <p>CEO</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="testo-box">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+            </p>
+
+            <div class="testo-hold">
+              <img src="imgs/p3.jpg" alt="" />
+              <div class="text-container">
+                <h4>Taquee</h4>
+                <p>CEO</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end testomoial -->
+
+<div class="contact-us">
+    <div class="overlay"></div>
+    <div class="container">
+        <h1>Contact Us</h1>
+        <form action="">
+            <div class="left">
+                <input type="text" name="fname" id="fname" placeholder="Write your First name">
+                <input type="text" name="lname" id="lname" placeholder="Write your Second name">
+                <input type="number" placeholder="Mobile Number">
+                <input type="email"placeholder="Your Email">
+            </div>
+            <div class="right">
+                <input type="subject"placeholder="subject">
+                <textarea name="message" id="message" placeholder="Write your message"></textarea>
+                <input type="submit" value="send">
+            </div>
+        </form>
+    </div>
+</div>
+<!-- start footer -->
+<footer>Thank you &copy; Mohamed Eltaquee</footer>
+<!-- end footer -->
+    <script src="js/file.js"></script>
+  </body>
+</html>
